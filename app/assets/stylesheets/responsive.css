@@ -85,7 +85,7 @@ div.rs-menu select {
     left: 0px;
     position: absolute;
     opacity: 0;
-    filter: alpha(opacity:0);
+/*    filter: alpha(opacity:0);*/
 }
 
 div.rs-menu span {
