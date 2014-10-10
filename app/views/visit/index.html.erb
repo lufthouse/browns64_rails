@@ -5,16 +5,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 <title>Visit WRHS</title>
 <link href='http://fonts.googleapis.com/css?family=Bree+Serif%7COpen+Sans:400,300,700' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="assets/style.css" type="text/css" />
+<!-- <link rel="stylesheet" href="assets/style.css" type="text/css" />
 <link rel="stylesheet" type="text/css" href="assets/style.css" media="screen" data-name="skins">
 <link rel="stylesheet" type="text/css" href="assets/allstyle.css">
-<!--[if lt IE 9]>
+[if lt IE 9]>
     	<script src="http://css3-mediaqueries-assets/.googlecode.com/svn/trunk/css3-mediaqueries.assets/"></script>
-<![endif]-->
+<![endif]
 <script type="text/javascript" src="assets/jquery.js/"></script>
 <script type="text/javascript" src="assets/modernizr.js/"></script>
 <script type="text/javascript" src="http://maps.google.com/maps/api/assets/?sensor=false"></script>
-<script type="text/javascript" src="assets/jquery.gmap.js/"></script>
+<script type="text/javascript" src="assets/jquery.gmap.js/"></script> -->
   <script src="//platform.twitter.com/widgets.js"></script>
 </head>
 <body class="stretched">
@@ -25,7 +25,7 @@
     <div class="cbp-af-inner">
       <div id="header">
         <div class="container clearfix">
-          <div id="logo"> <a href="Browns-Home.html"><img src="assets/logo-BTL.jpg" alt="64Browns" title="64Browns" /></a> </div>
+          <div id="logo"> <a href="Browns-Home.html"><%= image_tag "logo-BTL.jpg" %></a> </div>
           <div class="social-sec"> <a class="tw" href="https://twitter.com/search?f=realtime&q=%2364browns&src=typd" target="blank"></a> <a class="fb" href="https://www.facebook.com/WRHistoricalSociety" target="blank"></a>  <a class="v" href="https://www.youtube.com/watch?v=vGQai2yKdKg" target="blank"></a> </div>
           <a href="#" class="openmenu"><i class="fa fa-bars"></i></a>
           <script>
@@ -94,7 +94,7 @@
         
         <div class="col_half entry_content col_last nobottommargin">
           <div style="height: 250px">
-          <a href="https://www.google.com/maps/place/Western+Reserve+Historical+Society/@41.513508,-81.610474,17z/data=!4m2!3m1!1s0x0:0xf5c494a51fc2c946?hl=en" target="_blank"><img src="assets/map.png"/></a>
+          <a href="https://www.google.com/maps/place/Western+Reserve+Historical+Society/@41.513508,-81.610474,17z/data=!4m2!3m1!1s0x0:0xf5c494a51fc2c946?hl=en" target="_blank"><%= image_tag "map.png" %></a>
             <!--<div id="google-map"></div>
     <script type="text/javascript">
                             $('#google-map').gMap({
@@ -231,7 +231,7 @@
                 <div id="flickr_widget" class="flickrfeed">
                  <p>Questions about the site? Contact info@lufthouse.com.</p>
                  <p>Want to know more about the app? Visit the website by clicking the logo below!</p>
-                 <a href="http://www.lufthouse.com" target="_blank"><img src="assets/lufthouse_white.png" style="margin-left: 25%"></a></div>
+                 <a href="http://www.lufthouse.com" target="_blank"><%= image_tag "lufthouse_white.png"%></a></div>
               </div>
             </div>
 <!--           </div>

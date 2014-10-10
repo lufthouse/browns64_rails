@@ -4042,10 +4042,10 @@ button.button span {
 }
 
 #footer.footer-dark {
-    background: url("../assets/footer-black.jpg") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background-image: url("footer-black.jpg") repeat scroll 0 0 rgba(0, 0, 0, 0);
     color: #DDD;
 }
-.footer-bg{  background: url("../assets/footer-bg.jpg") no-repeat scroll right bottom rgba(0, 0, 0, 0); padding: 40px 30px;}
+.footer-bg{  background-image: url("footer-bg.jpg") no-repeat scroll right bottom rgba(0, 0, 0, 0); padding: 40px 30px;}
 #footer.footer-dark a {
     color: #fff;
    
