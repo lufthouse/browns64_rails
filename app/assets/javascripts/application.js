@@ -13,4 +13,12 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+//= require custom
+//= require jquery.countdown
+//= require jquery.themepunch.plugins
+//= require jquery.themepunch.revolution
+//= require modernizr
+//= require plugins
+//= require sticky-header
+//= require styleswitch
 //= require_tree .
