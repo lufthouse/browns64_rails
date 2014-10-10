@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<title>Element - Responsive Mulitpurpose Business Theme</title>
+<link href='http://fonts.googleapis.com/css?family=Bree+Serif%7COpen+Sans:400,300,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="style.css" type="text/css" />
+<link rel="stylesheet" type="text/css" href="style.css" media="screen" data-name="skins">
+<link rel="stylesheet" type="text/css" href="css/allstyle.css">
+<!--[if lt IE 9]>
+    	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/modernizr.js"></script>
+</head>
+<body class="stretched">
+<div id="wrapper" class="clearfix">
+  <div id="top-bar"> </div>
+  <div class="cbp-af-header">
+    <div class="cbp-af-inner">
+      <div id="header">
+        <div class="container clearfix">
+          <div id="logo"> <a href="index.html"><img src="assets/logo.png" alt="Element" title="Element" /></a> </div>
+          <div class="social-sec"> <a class="fb" href="#"></a> <a class="tw" href="#"></a> <a class="v" href="#"></a> </div>
+          <a href="#" class="openmenu"><i class="fa fa-bars"></i></a>
+          <script>
+      $(document).ready(function(){
+"use strict";
+      $('a.openmenu').on('click',function(){
+         $(".closed").toggleClass('opened');
+      });
+ });
+</script>
+          <div id="primary-menu" class="menu closed">
+            <ul class="menu">
+              <li><a href="#" > Home</a>
+                <!-- Full Width Mega-Menu / Start -->
+                <div class="mega-menu">
+                  <div class="col-1">
+                    <ol>
+                      <li><a href="index.html">Homepage 1</a></li>
+                      <li><a href="index-layout2.html">Homepage 2</a></li>
+                      <li><a href="index-layout3.html">Homepage 3</a></li>
+                      <li><a href="index-layout4.html">Homepage 4</a></li>
+                      <li><a href="index-layout5.html">Homepage 5</a></li>
+                    </ol>
+                  </div>
+                  <div class="col-1">
+                    <ol>
+                      <li><a href="index-layout6.html">Homepage 6</a></li>
+                      <li><a href="index-layout7.html">Homepage 7</a></li>
+                      <li><a href="index-layout8.html">Homepage 8</a></li>
+                      <li><a href="index-layout9.html">Homepage 9</a></li>
+                      <li><a href="index-layout5.html">Homepage 10</a></li>
+                    </ol>
+                  </div>
+                </div>
+                <!-- Full Width Mega-Menu / End -->
+              </li>
+              <li><a href="#" > Pages</a>
+                <!-- Full Width Mega-Menu / Start -->
+                <div class="mega-menu full-width bornone">
+                  <div class="col-1">
+                    <h4>Pages</h4>
+                    <ol>
+                      <li><a href="full-width.html">Full Width</a></li>
+                      <li><a href="page-right-side.html">Page Right Sidebar</a></li>
+                      <li><a href="page-left-side.html">Page Left Sidebar</a></li>
+                      <li><a href="blank-page.html">Blank Page</a></li>
+                      <li><a href="404.html">404 page</a></li>
+                    </ol>
+                  </div>
+                  <div class="col-1">
+                    <h4>Service related</h4>
+                    <ol>
+                      <li><a href="about.html">About us</a></li>
+                      <li><a href="services.html">Service</a></li>
+                      <li><a href="pricing-1.html">Pricing Table 1</a></li>
+                      <li><a href="pricing-2.html">Pricing Table 2</a></li>
+                      <li><a href="comingsoon.html">Comming Soon</a></li>
+                    </ol>
+                  </div>
+                  <div class="col-1">
+                    <h4>Contact</h4>
+                    <ol>
+                      <li><a href="contact.html">Contact Full</a></li>
+                      <li><a href="contact-left.html">Contact Left</a></li>
+                      <li><a href="contact-right.html">Contact Right</a></li>
+                      <li><a href="contact-sidebar.html">Contact Sidebar</a></li>
+                    </ol>
+                  </div>
+                  <div class="col-1">
+                    <h4>Header Style </h4>
+                    <ol>
+                      <li><a href="index-header-2.html">Header Style 1</a></li>
+                      <li><a href="index-header-3.html">Header Style 2</a></li>
+                      <li><a href="index-header-4.html">Header Style 3</a></li>
+                      <li><a href="index-header-5.html">Header Style 4</a></li>
+                    </ol>
+                  </div>
+                  <div class="col-1">
+                    <h4>Footer Style </h4>
+                    <ol>
+                      <li><a href="index-footer-light.html">Footer Light</a></li>
+                      <li><a href="index.html">Footer Dark Default</a></li>
+                      <li><a href="index-footer-small.html">Footer No Widget</a></li>
+                    </ol>
+                  </div>
+                </div>
+                <!-- Full Width Mega-Menu / End -->
+              </li>
+              <li><a href="#" > Portfolio</a>
+                <!-- Mega Menu / Start -->
+                <ul>
+                  <li><a href="portfolio-2.html">Portfolio 2 Column</a></li>
+                  <li><a href="portfolio-3.html">Portfolio 3 Column</a></li>
+                  <li><a href="portfolio-4.html">Portfolio 4 Column</a></li>
+                  <li><a href="portfolio-4-column.html">Portfolio 4 Column - Sidebar</a></li>
+                  <li><a href="#" class="arrow">Portfolio Single</a>
+                    <!-- Drop-Down / Start -->
+                    <ul>
+                      <li><a href="portfolio-single.html">Portfolio Single</a></li>
+                      <li><a href="portfolio-single-full-gallery.html">Portfolio Full width</a></li>
+                    </ul>
+                    <!-- Drop-Down / End -->
+                  </li>
+                </ul>
+                <!-- Mega Menu / End -->
+              </li>
+              <li><a href="#" >Blog</a>
+                <!-- Right Floated Drop-Down / Start -->
+                <ul>
+                  <li><a href="blog.html">Blog Default</a></li>
+                  <li><a href="blog-full.html">Blog Full</a></li>
+                  <li><a href="blog-small.html">Blog Small </a></li>
+                  <li><a href="blog-single.html">Blog Single</a></li>
+                </ul>
+                <!-- Right Floated Drop-Down / End -->
+              </li>
+              <li><a href="#" > Shortcode</a>
+                <!-- Full Width Mega-Menu / Start -->
+                <div class="mega-menu full-width">
+                  <div class="col-2">
+                    <ol>
+                      <li><a href="shortcode.html#accordion"><i class="fa fa-align-justify"></i>Accordian & Toggles</a></li>
+                      <li> <a href="shortcode.html#buttons"><i class="fa fa-hand-o-up"></i> Buttons</a> </li>
+                      <li><a href="typography.html#list"><i class="fa fa-list-ol"></i>List Style</a></li>
+                      <li><a href="shortcode.html#tabs"><i class="fa fa-tasks"></i> Tabs</a></li>
+                      <li><a href="design-element.html#crausal"><i class="fa fa-filter"></i>Crausal</a></li>
+                      <li><a href="shortcode.html#gmap"><i class="fa fa-map-marker"></i>Google Map</a></li>
+                    </ol>
+                  </div>
+                  <div class="col-2">
+                    <ol>
+                      <li><a href="design-element.html#ourteam"><i class="fa fa-users"></i>Our Team</a></li>
+                      <li><a href="shortcode.html#progress"><i class="fa fa-signal"></i>Progress Bar</a></li>
+                      <li><a href="#"><i class="fa fa-tachometer"></i>Parallax Background</a></li>
+                      <li><a href="design-element.html#testscroll"><i class="fa fa-user"></i> Testimonial Scroller</a></li>
+                      <li><a href="shortcode.html#alert"><i class="fa fa-bullhorn"></i>Notification</a></li>
+                      <li><a href="shortcode.html#pagination"><i class="fa fa-terminal"></i>Pagination</a></li>
+                    </ol>
+                  </div>
+                  <div class="col-2">
+                    <ol>
+                      <li><a href="shortcode.html#tables"><i class="fa fa-table"></i>Tables</a></li>
+                      <li><a href="shortcode.html#popup"><i class="fa fa-ellipsis-h"></i>Popovers & Tool Tip</a></li>
+                      <li><a href="design-element.html#headingstyle"><i class="fa fa-text-height"></i>Heading Style </a></li>
+                      <li><a href="columns.html"><span class="heigh"><i class="fa fa-columns"></i>Columns Type</span></a></li>
+                      <li><a href="icons.html"><span class="heigh"><i class="fa fa-tint"></i> Retina Icons</span></a></li>
+                      <li><a href="typography.html#typo"><span class="heigh"><i class="fa fa-font"></i>Typography </span></a></li>
+                    </ol>
+                  </div>
+                </div>
+                <!-- Full Width Mega-Menu / End -->
+              </li>
+              <li><a href="#" > Feature</a>
+                <!-- Full Width Mega-Menu / Start -->
+                <div class="mega-menu full-width">
+                  <div class="col-2">
+                    <ol>
+                      <li><a href="#"><i class="fa fa-bell-o"></i>Footer Styles</a></li>
+                      <li> <a href="#"><i class="fa fa-bolt"></i> Custom Widgets</a> </li>
+                      <li><a href="#"><i class="fa fa-book"></i>Custom Background</a></li>
+                      <li><a href="#"><i class="fa fa-bookmark-o"></i>9 Type of Skin</a></li>
+                      <li><a href="#"><i class="fa fa-briefcase"></i> Custom Patterns</a></li>
+                      <li><a href="#"><i class="fa fa-bold"></i>Google Font</a></li>
+                    </ol>
+                  </div>
+                  <div class="col-2">
+                    <ol>
+                      <li><a href="#"><i class="fa fa-code"></i>Clean Code</a></li>
+                      <li><a href="#"><i class="fa fa-check"></i>PSD Included </a></li>
+                      <li><a href="#"><i class="fa fa-location-arrow"></i> 100+ Shortcodes</a></li>
+                      <li><a href="#"><i class="fa fa-star-half-o"></i> 1600+ Ratina  Icons</a></li>
+                      <li><a href="#"><i class="fa fa-columns"></i>4 Type of Blog Styles</a></li>
+                      <li><a href="#"><i class="fa fa-unlink"></i>Boxed and Full Layout</a></li>
+                    </ol>
+                  </div>
+                  <div class="col-2">
+                    <ol>
+                      <li><a href="#"><i class="fa fa-font"></i>Header Styles</a></li>
+                      <li><a href="#"><i class="fa fa-umbrella"></i>100% Responsive</a></li>
+                      <li><a href="#"><i class="fa fa-thumbs-o-up"></i> Retina Ready</a></li>
+                      <li><a href="#"><i class="fa fa-tablet"></i> Well Documentation &amp; Support</a></li>
+                      <li><a href="#"><i class="fa fa-random"></i> Revolution  Slider</a></li>
+                      <li><a href="#"><i class="fa fa-wheelchair"></i>Demo Content</a></li>
+                    </ol>
+                  </div>
+                </div>
+                <!-- Full Width Mega-Menu / End -->
+              </li>
+              <li><a href="#" >Contact</a>
+                <!-- Right Floated Drop-Down / Start -->
+                <ul>
+                  <li><a href="contact.html">Contact Full</a></li>
+                  <li><a href="contact-left.html">Contact Left</a></li>
+                  <li><a href="contact-right.html">Contact Right</a></li>
+                  <li><a href="contact-sidebar.html">Contact Sidebar</a></li>
+                </ul>
+                <!-- Right Floated Drop-Down / End -->
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="content">
+    <div id="page-title">
+      <div id="title-inner">
+        <div class="container clearfix">
+          <h1>Ratina Icons<span>Nullam convallis eu</span></h1>
+        </div>
+      </div>
+      <div class="shadow-sec"></div>
+    </div>
+    <div class="content-wrap">
+      <div class="container clearfix">
+        <div class="col_full icon_lists">
+          <h3>Web App Icons</h3>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-adjust"></i> fa-adjust</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-anchor"></i> fa-anchor</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-archive"></i> fa-archive</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-arrows"></i> fa-arrows</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-arrows-h"></i> fa-arrows-h</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-arrows-v"></i> fa-arrows-v</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-asterisk"></i> fa-asterisk</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-ban"></i> fa-ban</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-bar-chart-o"></i> fa-bar-chart-o</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-barcode"></i> fa-barcode</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-bars"></i> fa-bars</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-beer"></i> fa-beer</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-bell"></i> fa-bell</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-bell-o"></i> fa-bell-o</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-bolt"></i> fa-bolt</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-book"></i> fa-book</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-bookmark"></i> fa-bookmark</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-bookmark-o"></i> fa-bookmark-o</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-briefcase"></i> fa-briefcase</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-bug"></i> fa-bug</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-building-o"></i> fa-building-o</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-bullhorn"></i> fa-bullhorn</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-bullseye"></i> fa-bullseye</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-calendar"></i> fa-calendar</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-calendar-o"></i> fa-calendar-o</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-camera"></i> fa-camera</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-camera-retro"></i> fa-camera-retro</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-caret-square-o-down"></i> fa-caret-square-o-down</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-caret-square-o-left"></i> fa-caret-square-o-left</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-caret-square-o-right"></i> fa-caret-square-o-right</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-caret-square-o-up"></i> fa-caret-square-o-up</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-certificate"></i> fa-certificate</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-check"></i> fa-check</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-check-circle"></i> fa-check-circle</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-check-circle-o"></i> fa-check-circle-o</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-check-square"></i> fa-check-square</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-check-square-o"></i> fa-check-square-o</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-circle"></i> fa-circle</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-circle-o"></i> fa-circle-o</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-clock-o"></i> fa-clock-o</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-cloud"></i> fa-cloud</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-cloud-download"></i> fa-cloud-download</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-cloud-upload"></i> fa-cloud-upload</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-code"></i> fa-code</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-code-fork"></i> fa-code-fork</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-coffee"></i> fa-coffee</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-cog"></i> fa-cog</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-cogs"></i> fa-cogs</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-comment"></i> fa-comment</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-comment-o"></i> fa-comment-o</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-comments"></i> fa-comments</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-comments-o"></i> fa-comments-o</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-compass"></i> fa-compass</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-credit-card"></i> fa-credit-card</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-crop"></i> fa-crop</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-crosshairs"></i> fa-crosshairs</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-cutlery"></i> fa-cutlery</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-dashboard"></i> fa-dashboard <span class="text-muted">(alias)</span></a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-desktop"></i> fa-desktop</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-dot-circle-o"></i> fa-dot-circle-o</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-download"></i> fa-download</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-edit"></i> fa-edit <span class="text-muted">(alias)</span></a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-ellipsis-h"></i> fa-ellipsis-h</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-ellipsis-v"></i> fa-ellipsis-v</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-envelope"></i> fa-envelope</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-envelope-o"></i> fa-envelope-o</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-eraser"></i> fa-eraser</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-exchange"></i> fa-exchange</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-exclamation"></i> fa-exclamation</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-exclamation-circle"></i> fa-exclamation-circle</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-exclamation-triangle"></i> fa-exclamation-triangle</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-external-link"></i> fa-external-link</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-external-link-square"></i> fa-external-link-square</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-eye"></i> fa-eye</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-eye-slash"></i> fa-eye-slash</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-female"></i> fa-female</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-fighter-jet"></i> fa-fighter-jet</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-film"></i> fa-film</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-filter"></i> fa-filter</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-fire"></i> fa-fire</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-fire-extinguisher"></i> fa-fire-extinguisher</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-flag"></i> fa-flag</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-flag-checkered"></i> fa-flag-checkered</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-flag-o"></i> fa-flag-o</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-flash"></i> fa-flash <span class="text-muted">(alias)</span></a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-flask"></i> fa-flask</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-folder"></i> fa-folder</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-folder-o"></i> fa-folder-o</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-folder-open"></i> fa-folder-open</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-folder-open-o"></i> fa-folder-open-o</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-frown-o"></i> fa-frown-o</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-gamepad"></i> fa-gamepad</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-gavel"></i> fa-gavel</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-gear"></i> fa-gear <span class="text-muted">(alias)</span></a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-gears"></i> fa-gears <span class="text-muted">(alias)</span></a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-gift"></i> fa-gift</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-glass"></i> fa-glass</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-globe"></i> fa-globe</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-group"></i> fa-group <span class="text-muted">(alias)</span></a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-hdd-o"></i> fa-hdd-o</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-headphones"></i> fa-headphones</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-heart"></i> fa-heart</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-heart-o"></i> fa-heart-o</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-home"></i> fa-home</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-inbox"></i> fa-inbox</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-info"></i> fa-info</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-info-circle"></i> fa-info-circle</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-key"></i> fa-key</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-keyboard-o"></i> fa-keyboard-o</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-laptop"></i> fa-laptop</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-leaf"></i> fa-leaf</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-legal"></i> fa-legal <span class="text-muted">(alias)</span></a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-lemon-o"></i> fa-lemon-o</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-level-down"></i> fa-level-down</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-level-up"></i> fa-level-up</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-lightbulb-o"></i> fa-lightbulb-o</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-location-arrow"></i> fa-location-arrow</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-lock"></i> fa-lock</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-magic"></i> fa-magic</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-magnet"></i> fa-magnet</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-mail-forward"></i> fa-mail-forward <span class="text-muted">(alias)</span></a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-mail-reply"></i> fa-mail-reply <span class="text-muted">(alias)</span></a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-mail-reply-all"></i> fa-mail-reply-all</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-male"></i> fa-male</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-map-marker"></i> fa-map-marker</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-meh-o"></i> fa-meh-o</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-microphone"></i> fa-microphone</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-microphone-slash"></i> fa-microphone-slash</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-minus"></i> fa-minus</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-minus-circle"></i> fa-minus-circle</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-minus-square"></i> fa-minus-square</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-minus-square-o"></i> fa-minus-square-o</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-mobile"></i> fa-mobile</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-mobile-phone"></i> fa-mobile-phone <span class="text-muted">(alias)</span></a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-money"></i> fa-money</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-moon-o"></i> fa-moon-o</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-music"></i> fa-music</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-pencil"></i> fa-pencil</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-pencil-square"></i> fa-pencil-square</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-pencil-square-o"></i> fa-pencil-square-o</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-phone"></i> fa-phone</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-phone-square"></i> fa-phone-square</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-picture-o"></i> fa-picture-o</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-plane"></i> fa-plane</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-plus"></i> fa-plus</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-plus-circle"></i> fa-plus-circle</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-plus-square"></i> fa-plus-square</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-plus-square-o"></i> fa-plus-square-o</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-power-off"></i> fa-power-off</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-print"></i> fa-print</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-puzzle-piece"></i> fa-puzzle-piece</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-qrcode"></i> fa-qrcode</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-question"></i> fa-question</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-question-circle"></i> fa-question-circle</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-quote-left"></i> fa-quote-left</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-quote-right"></i> fa-quote-right</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-random"></i> fa-random</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-refresh"></i> fa-refresh</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-reply"></i> fa-reply</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-reply-all"></i> fa-reply-all</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-retweet"></i> fa-retweet</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-road"></i> fa-road</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-rocket"></i> fa-rocket</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-rss"></i> fa-rss</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-rss-square"></i> fa-rss-square</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-search"></i> fa-search</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-search-minus"></i> fa-search-minus</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-search-plus"></i> fa-search-plus</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-share"></i> fa-share</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-share-square"></i> fa-share-square</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-share-square-o"></i> fa-share-square-o</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-shield"></i> fa-shield</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-shopping-cart"></i> fa-shopping-cart</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-sign-in"></i> fa-sign-in</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-sign-out"></i> fa-sign-out</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-signal"></i> fa-signal</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-sitemap"></i> fa-sitemap</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-smile-o"></i> fa-smile-o</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-sort"></i> fa-sort</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-sort-alpha-asc"></i> fa-sort-alpha-asc</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-sort-alpha-desc"></i> fa-sort-alpha-desc</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-sort-amount-asc"></i> fa-sort-amount-asc</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-sort-amount-desc"></i> fa-sort-amount-desc</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-sort-asc"></i> fa-sort-asc</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-sort-desc"></i> fa-sort-desc</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-sort-down"></i> fa-sort-down <span class="text-muted">(alias)</span></a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-sort-numeric-asc"></i> fa-sort-numeric-asc</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-sort-numeric-desc"></i> fa-sort-numeric-desc</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-sort-up"></i> fa-sort-up <span class="text-muted">(alias)</span></a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-spinner"></i> fa-spinner</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-square"></i> fa-square</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-square-o"></i> fa-square-o</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-star"></i> fa-star</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-star-half"></i> fa-star-half</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-star-half-empty"></i> fa-star-half-empty <span class="text-muted">(alias)</span></a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-star-half-full"></i> fa-star-half-full <span class="text-muted">(alias)</span></a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-star-half-o"></i> fa-star-half-o</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-star-o"></i> fa-star-o</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-subscript"></i> fa-subscript</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-suitcase"></i> fa-suitcase</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-sun-o"></i> fa-sun-o</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-superscript"></i> fa-superscript</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-tablet"></i> fa-tablet</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-tachometer"></i> fa-tachometer</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-tag"></i> fa-tag</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-tags"></i> fa-tags</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-tasks"></i> fa-tasks</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-terminal"></i> fa-terminal</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-thumb-tack"></i> fa-thumb-tack</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-thumbs-down"></i> fa-thumbs-down</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-thumbs-o-down"></i> fa-thumbs-o-down</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-thumbs-o-up"></i> fa-thumbs-o-up</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-thumbs-up"></i> fa-thumbs-up</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-ticket"></i> fa-ticket</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-times"></i> fa-times</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-times-circle"></i> fa-times-circle</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-times-circle-o"></i> fa-times-circle-o</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-tint"></i> fa-tint</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-toggle-down"></i> fa-toggle-down <span class="text-muted">(alias)</span></a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-toggle-left"></i> fa-toggle-left <span class="text-muted">(alias)</span></a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-toggle-right"></i> fa-toggle-right <span class="text-muted">(alias)</span></a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-toggle-up"></i> fa-toggle-up <span class="text-muted">(alias)</span></a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-trash-o"></i> fa-trash-o</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-trophy"></i> fa-trophy</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-truck"></i> fa-truck</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-umbrella"></i> fa-umbrella</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-unlock"></i> fa-unlock</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-unlock-alt"></i> fa-unlock-alt</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-unsorted"></i> fa-unsorted <span class="text-muted">(alias)</span></a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-upload"></i> fa-upload</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-user"></i> fa-user</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-users"></i> fa-users</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-video-camera"></i> fa-video-camera</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-volume-down"></i> fa-volume-down</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-volume-off"></i> fa-volume-off</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-volume-up"></i> fa-volume-up</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-warning"></i> fa-warning <span class="text-muted">(alias)</span></a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-wheelchair"></i> fa-wheelchair</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-wrench"></i> fa-wrench</a></div>
+        </div>
+        <div class="col_full icon_lists">
+          <h3>Form Control Icons</h3>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-check-square"></i> fa-check-square</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-check-square-o"></i> fa-check-square-o</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-circle"></i> fa-circle</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-circle-o"></i> fa-circle-o</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-dot-circle-o"></i> fa-dot-circle-o</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-minus-square"></i> fa-minus-square</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-minus-square-o"></i> fa-minus-square-o</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-plus-square"></i> fa-plus-square</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-plus-square-o"></i> fa-plus-square-o</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-square"></i> fa-square</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-square-o"></i> fa-square-o</a></div>
+        </div>
+        <div class="col_full icon_lists">
+          <h3>Currency Icons</h3>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-bitcoin"></i> fa-bitcoin <span class="text-muted">(alias)</span></a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-btc"></i> fa-btc</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-cny"></i> fa-cny <span class="text-muted">(alias)</span></a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-dollar"></i> fa-dollar <span class="text-muted">(alias)</span></a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-eur"></i> fa-eur</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-euro"></i> fa-euro <span class="text-muted">(alias)</span></a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-gbp"></i> fa-gbp</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-inr"></i> fa-inr</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-jpy"></i> fa-jpy</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-krw"></i> fa-krw</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-money"></i> fa-money</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-rmb"></i> fa-rmb <span class="text-muted">(alias)</span></a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-rouble"></i> fa-rouble <span class="text-muted">(alias)</span></a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-rub"></i> fa-rub</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-ruble"></i> fa-ruble <span class="text-muted">(alias)</span></a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-rupee"></i> fa-rupee <span class="text-muted">(alias)</span></a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-try"></i> fa-try</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-turkish-lira"></i> fa-turkish-lira <span class="text-muted">(alias)</span></a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-usd"></i> fa-usd</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-won"></i> fa-won <span class="text-muted">(alias)</span></a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-yen"></i> fa-yen <span class="text-muted">(alias)</span></a></div>
+        </div>
+        <div class="col_full icon_lists">
+          <h3>Text Editor Icons</h3>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-align-center"></i> fa-align-center</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-align-justify"></i> fa-align-justify</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-align-left"></i> fa-align-left</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-align-right"></i> fa-align-right</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-bold"></i> fa-bold</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-chain"></i> fa-chain <span class="text-muted">(alias)</span></a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-chain-broken"></i> fa-chain-broken</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-clipboard"></i> fa-clipboard</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-columns"></i> fa-columns</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-copy"></i> fa-copy <span class="text-muted">(alias)</span></a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-cut"></i> fa-cut <span class="text-muted">(alias)</span></a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-dedent"></i> fa-dedent <span class="text-muted">(alias)</span></a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-eraser"></i> fa-eraser</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-file"></i> fa-file</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-file-o"></i> fa-file-o</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-file-text"></i> fa-file-text</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-file-text-o"></i> fa-file-text-o</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-files-o"></i> fa-files-o</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-floppy-o"></i> fa-floppy-o</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-font"></i> fa-font</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-indent"></i> fa-indent</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-italic"></i> fa-italic</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-link"></i> fa-link</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-list"></i> fa-list</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-list-alt"></i> fa-list-alt</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-list-ol"></i> fa-list-ol</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-list-ul"></i> fa-list-ul</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-outdent"></i> fa-outdent</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-paperclip"></i> fa-paperclip</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-paste"></i> fa-paste <span class="text-muted">(alias)</span></a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-repeat"></i> fa-repeat</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-rotate-left"></i> fa-rotate-left <span class="text-muted">(alias)</span></a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-rotate-right"></i> fa-rotate-right <span class="text-muted">(alias)</span></a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-save"></i> fa-save <span class="text-muted">(alias)</span></a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-scissors"></i> fa-scissors</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-strikethrough"></i> fa-strikethrough</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-table"></i> fa-table</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-text-height"></i> fa-text-height</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-text-width"></i> fa-text-width</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-th"></i> fa-th</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-th-large"></i> fa-th-large</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-th-list"></i> fa-th-list</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-underline"></i> fa-underline</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-undo"></i> fa-undo</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-unlink"></i> fa-unlink <span class="text-muted">(alias)</span></a></div>
+        </div>
+        <div class="col_full icon_lists">
+          <h3>Directional Icons</h3>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-angle-double-down"></i> fa-angle-double-down</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-angle-double-left"></i> fa-angle-double-left</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-angle-double-right"></i> fa-angle-double-right</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-angle-double-up"></i> fa-angle-double-up</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-angle-down"></i> fa-angle-down</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-angle-left"></i> fa-angle-left</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-angle-right"></i> fa-angle-right</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-angle-up"></i> fa-angle-up</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-arrow-circle-down"></i> fa-arrow-circle-down</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-arrow-circle-left"></i> fa-arrow-circle-left</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-arrow-circle-o-down"></i> fa-arrow-circle-o-down</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-arrow-circle-o-left"></i> fa-arrow-circle-o-left</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-arrow-circle-o-right"></i> fa-arrow-circle-o-right</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-arrow-circle-o-up"></i> fa-arrow-circle-o-up</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-arrow-circle-right"></i> fa-arrow-circle-right</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-arrow-circle-up"></i> fa-arrow-circle-up</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-arrow-down"></i> fa-arrow-down</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-arrow-left"></i> fa-arrow-left</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-arrow-right"></i> fa-arrow-right</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-arrow-up"></i> fa-arrow-up</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-arrows"></i> fa-arrows</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-arrows-alt"></i> fa-arrows-alt</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-arrows-h"></i> fa-arrows-h</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-arrows-v"></i> fa-arrows-v</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-caret-down"></i> fa-caret-down</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-caret-left"></i> fa-caret-left</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-caret-right"></i> fa-caret-right</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-caret-square-o-down"></i> fa-caret-square-o-down</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-caret-square-o-left"></i> fa-caret-square-o-left</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-caret-square-o-right"></i> fa-caret-square-o-right</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-caret-square-o-up"></i> fa-caret-square-o-up</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-caret-up"></i> fa-caret-up</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-chevron-circle-down"></i> fa-chevron-circle-down</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-chevron-circle-left"></i> fa-chevron-circle-left</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-chevron-circle-right"></i> fa-chevron-circle-right</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-chevron-circle-up"></i> fa-chevron-circle-up</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-chevron-down"></i> fa-chevron-down</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-chevron-left"></i> fa-chevron-left</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-chevron-right"></i> fa-chevron-right</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-chevron-up"></i> fa-chevron-up</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-hand-o-down"></i> fa-hand-o-down</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-hand-o-left"></i> fa-hand-o-left</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-hand-o-right"></i> fa-hand-o-right</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-hand-o-up"></i> fa-hand-o-up</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-long-arrow-down"></i> fa-long-arrow-down</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-long-arrow-left"></i> fa-long-arrow-left</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-long-arrow-right"></i> fa-long-arrow-right</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-long-arrow-up"></i> fa-long-arrow-up</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-toggle-down"></i> fa-toggle-down <span class="text-muted">(alias)</span></a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-toggle-left"></i> fa-toggle-left <span class="text-muted">(alias)</span></a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-toggle-right"></i> fa-toggle-right <span class="text-muted">(alias)</span></a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-toggle-up"></i> fa-toggle-up <span class="text-muted">(alias)</span></a></div>
+        </div>
+        <div class="col_full icon_lists">
+          <h3>Video Player Icons</h3>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-arrows-alt"></i> fa-arrows-alt</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-backward"></i> fa-backward</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-compress"></i> fa-compress</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-eject"></i> fa-eject</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-expand"></i> fa-expand</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-fast-backward"></i> fa-fast-backward</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-fast-forward"></i> fa-fast-forward</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-forward"></i> fa-forward</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-pause"></i> fa-pause</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-play"></i> fa-play</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-play-circle"></i> fa-play-circle</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-play-circle-o"></i> fa-play-circle-o</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-step-backward"></i> fa-step-backward</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-step-forward"></i> fa-step-forward</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-stop"></i> fa-stop</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-youtube-play"></i> fa-youtube-play</a></div>
+        </div>
+        <div class="col_full icon_lists">
+          <h3>Brand Icons</h3>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-adn"></i> fa-adn</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-android"></i> fa-android</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-apple"></i> fa-apple</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-bitbucket"></i> fa-bitbucket</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-bitbucket-square"></i> fa-bitbucket-square</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-bitcoin"></i> fa-bitcoin <span class="text-muted">(alias)</span></a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-btc"></i> fa-btc</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-css3"></i> fa-css3</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-dribbble"></i> fa-dribbble</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-dropbox"></i> fa-dropbox</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-facebook"></i> fa-facebook</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-facebook-square"></i> fa-facebook-square</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-flickr"></i> fa-flickr</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-foursquare"></i> fa-foursquare</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-github"></i> fa-github</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-github-alt"></i> fa-github-alt</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-github-square"></i> fa-github-square</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-gittip"></i> fa-gittip</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-google-plus"></i> fa-google-plus</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-google-plus-square"></i> fa-google-plus-square</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-html5"></i> fa-html5</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-instagram"></i> fa-instagram</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-linkedin"></i> fa-linkedin</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-linkedin-square"></i> fa-linkedin-square</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-linux"></i> fa-linux</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-maxcdn"></i> fa-maxcdn</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-pagelines"></i> fa-pagelines</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-pinterest"></i> fa-pinterest</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-pinterest-square"></i> fa-pinterest-square</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-renren"></i> fa-renren</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-skype"></i> fa-skype</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-stack-exchange"></i> fa-stack-exchange</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-stack-overflow"></i> fa-stack-overflow</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-trello"></i> fa-trello</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-tumblr"></i> fa-tumblr</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-tumblr-square"></i> fa-tumblr-square</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-twitter"></i> fa-twitter</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-twitter-square"></i> fa-twitter-square</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-vimeo-square"></i> fa-vimeo-square</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-vk"></i> fa-vk</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-weibo"></i> fa-weibo</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-windows"></i> fa-windows</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-xing"></i> fa-xing</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-xing-square"></i> fa-xing-square</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-youtube"></i> fa-youtube</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-youtube-play"></i> fa-youtube-play</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-youtube-square"></i> fa-youtube-square</a></div>
+        </div>
+        <div class="col_full icon_lists">
+          <h3>Medical Icons</h3>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-ambulance"></i> fa-ambulance</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-h-square"></i> fa-h-square</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-hospital-o"></i> fa-hospital-o</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-medkit"></i> fa-medkit</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-plus-square"></i> fa-plus-square</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-stethoscope"></i> fa-stethoscope</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-user-md"></i> fa-user-md</a></div>
+          <div class="fa-hover col_one_fourth"><a href="#"><i class="fa fa-wheelchair"></i> fa-wheelchair</a></div>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+  <div id="footer" class="footer-dark">
+    <div class="topouther">
+      <div class="container clearfix">
+        <section class="col_two_third">
+          <div class="home-left"><i class="fa fa-home"></i><span>Apolostreet, Rochaster Usa</span></div>
+          <div class="no-mid"><i class="fa fa-mobile"></i><span>846 - 489 - 1679</span></div>
+          <div class="msg-right"><i class="fa fa-envelope-o"></i><span><a href="mailto:info@themeprofuse.com">info@themeprofuse.com</a></span></div>
+        </section>
+        <section class="col_one_third col_last mar-bot0">
+          <div class="social-icons"> <a class="tw" href="#"></a> <a class="fb" href="#"></a> <a class="vi" href="#"></a> <a class="soc" href="#"></a> <a class="dri" href="#"></a> </div>
+        </section>
+      </div>
+    </div>
+    <div class="footer-bg">
+      <div class="container clearfix">
+        <div class="footer-widgets-wrap clearfix">
+          <div class="col_one_fourth">
+            <div class="widget clearfix">
+              <h4>Newsletter</h4>
+              <div class="left-newsletter clearfix">
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam convallis euismod mollis. </p>
+                <input name="" type="text" placeholder="Type Email" class="email-type">
+                <input name="Sign Up" type="submit" class="signup" value="Sign Up" id="Sign Up">
+              </div>
+            </div>
+          </div>
+          <div class="col_one_fourth">
+            <div class="widget widget_links clearfix">
+              <h4 class="widget-title">Latest Tweet</h4>
+              <div class="latest-tw clearfix">
+                <div class="twitterdiv">
+                  <p> <span class="blu"><a href="#">@designprefix</a></span> Integer eu <br>
+                    libero sit amet nisl  nec porttitor <br>
+                    <span class="gray">5 hour ago</span> </p>
+                </div>
+                <div class="twitterdiv">
+                  <p> <span class="blu"><a href="#">@designprefix</a></span> Integer eu <br>
+                    libero sit amet nisl  nec porttitor <br>
+                    <span class="gray">5 hour ago</span> </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col_one_fourth">
+            <div id="flickr_widget-1" class="widget latestpost clearfix">
+              <h4 class="widget-title">Latest Post </h4>
+              <div class="post-bg clearfix">
+                <div class="left-img"><img src="assets/footerimg.jpg" alt=""></div>
+                <div class="right-txt">
+                  <p> <a href="#">Integer eu livvvbero siamet nisl  nec porttitor eos et accusam</a> </p>
+                </div>
+              </div>
+              <div class="post-bg clearfix">
+                <div class="left-img"><img src="assets/footerimg2.jpg" alt=""></div>
+                <div class="right-txt">
+                  <p> <a href="#">Integer eu livvvbero siamet nisl  nec porttitor eos et accusam</a> </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col_one_fourth">
+            <div class="widget flickr-widget clearfix">
+              <h4>Photo Stream</h4>
+              <div id="flickr_widget" class="flickrfeed" data-id="52617155@N08" data-count="6" data-type="user"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="clear"></div>
+  <div id="copyrights" class="copyrights-dark">
+    <div class="container clearfix">
+      <div class="col_half"> Copyright 2012 - Element. WordPress theme </div>
+      <div class="col_half col_last tright"> Made by <a href="#">DesignPrefix.com</a> Premium WordPress themes </div>
+    </div>
+  </div>
+</div>
+<div id="gotoTop" class="fa fa-angle-up"></div>
+<script type="text/javascript" src="js/plugins.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+<script src="js/sticky-header.js"></script>
+<script type="text/javascript" src="js/jquery.cookie.js"></script>
+<script type="text/javascript" src="js/styleswitch.js"></script>
+<div class="switcher"></div>
+</body>
+</html>
