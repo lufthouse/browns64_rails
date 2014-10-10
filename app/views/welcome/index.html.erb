@@ -24,7 +24,7 @@
     <div class="cbp-af-inner">
       <div id="header">
     <div class="container clearfix">
-          <div id="logo"> <a href="index.html"><img src="assets/logo-BTL.jpg" alt="64Browns" title="64Browns" /></a> </div>
+          <div id="logo"> <a href="index.html"><%=image_tag "logo-BTL.jpg" %></a> </div>
           <div class="social-sec"> <a class="tw" href="https://twitter.com/search?f=realtime&q=%2364browns&src=typd" target="blank"></a> <a class="fb" href="https://www.facebook.com/WRHistoricalSociety" target="blank"></a>  <a class="v" href="https://www.youtube.com/watch?v=vGQai2yKdKg" target="blank"></a> </div>
        <a href="#" class="openmenu"><i class="fa fa-bars"></i></a>
         <script>
@@ -57,17 +57,17 @@
       <div class="fullwidthbanner-container" >
         <div class="fullwidthbanner" >
           <ul class="clearfix">
-            <li data-transition="3dcurtain-vertical" data-slotamount="10" data-masterspeed="300"> <img src="assets/slider/2/bg_browns.png" alt="">
+            <li data-transition="3dcurtain-vertical" data-slotamount="10" data-masterspeed="300"> <%= image_tag "slider/2/bg_browns.png" %>
               
             </li>
-<li data-transition="random" data-slotamount="10" data-delay="8500" data-masterspeed="300"> <img src="assets/slider/1/bg_browns.png" alt="">
+<li data-transition="random" data-slotamount="10" data-delay="8500" data-masterspeed="300"> <%= image_tag "slider/1/bg_browns.png" %>
 
               
             </li>   
-       <li data-transition="random" data-slotamount="10" data-delay="8500" data-masterspeed="300"> <img src="assets/slider/3/bg_browns4.png" alt="">
+       <li data-transition="random" data-slotamount="10" data-delay="8500" data-masterspeed="300"> <%= image_tag "slider/3/bg_browns4.png" %>
               
             </li>
-           <li data-transition="random" data-slotamount="10" data-delay="8500" data-masterspeed="300"> <a href=https://itunes.apple.com/us/app/lufthouse/id905585424?mt=8> </a><img src="assets/slider/4/Lufthouse_Slider.png" alt="">
+           <li data-transition="random" data-slotamount="10" data-delay="8500" data-masterspeed="300"> <a href=https://itunes.apple.com/us/app/lufthouse/id905585424?mt=8> </a><%= image_tag "slider/4/Lufthouse_Slider.png" %>
                          </li>
           </ul>
           <div class="slider-line"></div>
@@ -144,7 +144,7 @@
                           <span>Experience More</span> </div>
                         <a href="https://itunes.apple.com/us/app/lufthouse/id905585424?mt=8" target="_blank"><p> Download the Lufthouse application and experience more at stations throughout the exhibit. </p> </a>
                         <div id="app_store">
-                             <a href="https://itunes.apple.com/us/app/lufthouse/id905585424?mt=8" target="_blank"><img src="assets/app_store.png" alt="Download on the App Store" style="height: 100%; width: 100%;"></a>
+                             <a href="https://itunes.apple.com/us/app/lufthouse/id905585424?mt=8" target="_blank"><%=image_tag "app_store.png" %></a>
                         </div>
                       </div>
                     </div>
@@ -170,7 +170,7 @@
           <h3>Insider Thoughts </h3>
                     <div id="portfolio" class="scroll-portfolio clearfix">
                       <div class="portfolio-item pf-icons pf-media">
-                        <div class="portfolio-image"> <a href="#"><img src="assets/portfolio/1/Sam_Rutigliano_2.jpg" alt="img1" /></a>
+                        <div class="portfolio-image"> <a href="#"><%=image_tag "portfolio/1/Sam_Rutigliano_2.jpg" %></a>
                           <div class="portfolio-overlay">
                             <div class="portfolio-overlay-wrap">
                               <p>Sam Rutigliano</p>
@@ -185,7 +185,7 @@
                         </div>
                       </div>
                       <div class="portfolio-item pf-uielements">
-                        <div class="portfolio-image"> <a href="#"><img src="assets/portfolio/1/Jim_Houston.jpg" alt="img1"  /></a>
+                        <div class="portfolio-image"> <a href="#"><%=image_tag "portfolio/1/Jim_Houston.jpg"%></a>
                           <div class="portfolio-overlay">
                             <div class="portfolio-overlay-wrap">
                               <p>Jim Houston</p>
@@ -200,7 +200,7 @@
                         </div>
                       </div>
                       <div class="portfolio-item pf-illustrations">
-                        <div class="portfolio-image"> <a href="#"><img src="assets/portfolio/1/Dudley_Humphrey.jpg" alt="img3" /></a> <!--<a class="hidden" href="assets/portfolio/full/3-2.jpg" data-rel="prettyPhoto[gal2]"></a> -->
+                        <div class="portfolio-image"> <a href="#"><%=image_tag "portfolio/1/Dudley_Humphrey.jpg" %></a> <!--<a class="hidden" href="portfolio/full/3-2.jpg" data-rel="prettyPhoto[gal2]"></a> -->
                           <div class="portfolio-overlay">
                             <div class="portfolio-overlay-wrap">
                               <p>Dudley Humphrey</p>
@@ -215,7 +215,7 @@
                         </div>
                       </div>
                         <div class="portfolio-item pf-illustrations pf-graphics">
-                        <div class="portfolio-image"> <a href="#"><img src="assets/portfolio/1/Jim_Schoff.jpg" alt="" title="img4" /></a>
+                        <div class="portfolio-image"> <a href="#"><%=image_tag "portfolio/1/Jim_Schoff.jpg" %></a>
                           <div class="portfolio-overlay">
                             <div class="portfolio-overlay-wrap">
                               <p>Jim Schoff</p>
@@ -337,7 +337,7 @@
                 <div id="flickr_widget" class="flickrfeed">
                  <p>Questions about the site? Contact info@lufthouse.com.</p>
                  <p>Want to know more about the app? Visit the website by clicking the logo below!</p>
-                 <a href="http://www.lufthouse.com" target="_blank"><img src="assets/lufthouse_white.png" style="margin-left: 25%"></a></div>
+                 <a href="http://www.lufthouse.com" target="_blank"><%=image_tag "lufthouse_white.png" %> <!-- style="margin-left: 25%"> --></a></div>
               </div>
             </div>
 
