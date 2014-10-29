@@ -4042,10 +4042,10 @@ button.button span {
 }
 
 #footer.footer-dark {
-    background: url("../assets/footer-black.jpg") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: #333333;
     color: #DDD;
 }
-.footer-bg{  background: url("../assets/footer-bg.jpg") no-repeat scroll right bottom rgba(0, 0, 0, 0); padding: 40px 30px;}
+.footer-bg{  background: #333333 no-repeat scroll right bottom rgba(0, 0, 0, 0); padding: 40px 30px;}
 #footer.footer-dark a {
     color: #fff;
    
@@ -5342,7 +5342,7 @@ margin-top:15px;
 
 .footer-light .msg-right span a{ color: #fff;}
 .twitterdiv{
-		background: url(../assets/twitter.png) no-repeat 0% 10%;
+		background: url(../assets/icons/twitter.png) no-repeat 0% 10%;
 		margin-bottom: 18px;
 }
 

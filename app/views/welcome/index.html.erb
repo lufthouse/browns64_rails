@@ -5,16 +5,25 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 <title> 1964: When Browns Town was Title Town </title>
 <link href='http://fonts.googleapis.com/css?family=Bree+Serif%7COpen+Sans:400,300,700' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="assets/style.css" type="text/css" />
+<link href='//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+<!-- <link rel="stylesheet" href="assets/style.css" type="text/css" />
 <link rel="stylesheet" type="text/css" href="assets/style.css" media="screen" data-name="skins">
-<link rel="stylesheet" type="text/css" href="assets/allstyle.css">
+<link rel="stylesheet" type="text/css" href="assets/allstyle.css"> -->
+<%= stylesheet_link_tag 'style' %>
+<%= stylesheet_link_tag 'allstyle' %>
+<%= stylesheet_link_tag 'stylesheets/font-awesome.min' %>
+<%= javascript_include_tag 'jquery' %>
+<%= javascript_include_tag 'modernizr' %>
+<%= javascript_include_tag 'jQuery.themepunch.revolution' %>
 
 <!--[if lt IE 9]>
       <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
 <![endif]-->
-<script type="text/javascript" src="assets/jquery.js"></script>
+<!-- <script type="text/javascript" src="assets/jquery.js"></script>
 <script type="text/javascript" src="assets/modernizr.js"></script>
-<script type="text/javascript" src="assets/jquery.themepunch.revolution.js"></script>
+<script type="text/javascript" src="assets/jquery.themepunch.revolution.js"></script> -->
   <script src="//platform.twitter.com/widgets.js"></script>
  </head>
 <body class="stretched">
@@ -354,15 +363,23 @@
   <div id="gotoTop" class="fa fa-angle-up"></div>
 </div>
 
-<script type="text/javascript" src="assets/plugins.js"></script>
+<!-- <script type="text/javascript" src="assets/plugins.js"></script>
 <script type="text/javascript" src="assets/jquery.themepunch.plugins.js"></script>
-<script type="text/javascript" src="assets/jquery.themepunch.revolution.js"></script>
+<script type="text/javascript" src="assets/jquery.themepunch.revolution.js"></script> -->
+<%= javascript_include_tag 'plugins' %>
+<%= javascript_include_tag 'jquery.themepunch.plugins' %>
+<%= javascript_include_tag 'jquery.themepunch.revolution' %>
+<%= javascript_include_tag 'custom' %>
+<%= javascript_include_tag 'sticky-header' %>
+<%= javascript_include_tag 'jquery.cookie' %>
+<%= javascript_include_tag 'styleswitch' %>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
-
+<!-- 
 <script type="text/javascript" src="assets/custom.js"></script>
 <script src="assets/sticky-header.js"></script>
 <script type="text/javascript" src="assets/jquery.cookie.js"></script>
-<script type="text/javascript" src="assets/styleswitch.js"></script>
+<script type="text/javascript" src="assets/styleswitch.js"></script> -->
 
 <div class="switcher"></div>
 </body>

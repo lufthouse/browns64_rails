@@ -4891,7 +4891,7 @@ a.twitter-follow-me:hover,
         height: 30px;
         margin-left: 3px;
         display: block;
-        background: url(../assets/icons/tw-iconbrowns.png) no-repeat;
+        background: <%= image+tag 'tw-iconbrowns.png' %> no-repeat;
         position: relative;
 }
 
@@ -5342,7 +5342,7 @@ margin-top:15px;
 
 .footer-light .msg-right span a{ color: #fff;}
 .twitterdiv{
-		background: url(../assets/twitter.png) no-repeat 0% 10%;
+		background: <%= image_tag "twitter.png"%> no-repeat 0% 10%;
 		margin-bottom: 18px;
 }
 
