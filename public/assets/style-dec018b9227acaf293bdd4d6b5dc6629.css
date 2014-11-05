@@ -4043,10 +4043,10 @@ button.button span {
 }
 
 #footer.footer-dark {
-    background: url("../assets/footer-black.jpg") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: #333333;
     color: #DDD;
 }
-.footer-bg{  background: url("../assets/footer-bg.jpg") no-repeat scroll right bottom rgba(0, 0, 0, 0); padding: 40px 30px;}
+.footer-bg{  background: #333333 no-repeat scroll right bottom rgba(0, 0, 0, 0); padding: 40px 30px;}
 #footer.footer-dark a {
     color: #fff;
    
@@ -4123,7 +4123,7 @@ button.button span {
 
 #footer.footer-dark .widget h4 {
   border-bottom: 1px solid #2F2F30;
-    color: #FFFFFF;
+    color: #2f2f30;
     font-family: 'Bree Serif',serif;
     font-size: 18px;
     margin: 0 0 12px;
@@ -4155,7 +4155,7 @@ button.button span {
 
 }
 
-#footer .widget p{ color: #EEEDED;
+#footer .widget p{ color: #2f2f30;
  
     font-size: 12px;
      margin-bottom: 10px;
